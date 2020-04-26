@@ -1,0 +1,1 @@
+When we do this problem, we can start with negative Numbers.When n is odd, one of the digits is set to 0, and the remaining digits are radiated in both directions of the X-axis based on 0.So we can say that when n is even, these Numbers are negative.When n is odd, the negative number is created for n-1, and the Nth digit is set to 0.
