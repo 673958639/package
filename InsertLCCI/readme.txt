@@ -1,0 +1,1 @@
+They want to insert M into N so that M starts at the j th bit of N and ends at the i th bit.And they tell us that there can¡¯t be a situation where M doesn¡¯t fit between j and I.So we can do a bit operation, and we can directly compute the value of N after insertion. The time complexity is O(1), and the space complexity is O(1). The memory consumption is 1.9Mb.
