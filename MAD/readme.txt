@@ -1,0 +1,1 @@
+So when we do this, we¡¯re going to arrange the array in ascending order.And then I¡¯m going to compare the last one minus the last one.The one with the smallest difference will be added to the result array and will loop through to get the final answer. The time complexity is O(n), and the space complexity is O(n). The memory consumption is 7.3Mb.
