@@ -1,0 +1,1 @@
+When solving this problem, we should pay attention to its boundary range.We can use two loops to search for the distance of each element to the nearest 0.Because the distance between two adjacent elements is 1, so if the three sides of a number are 1, and the diagonal is 0.So the distance between this number and 0 is 2.So we can figure out the final answer in two iterations.
