@@ -1,0 +1,1 @@
+Because of the small amount of data, the problem is solved by backtracking directly and using a map.Optimization: tiles can be sorted so that if they are the same as the previous one, they do not need to traverse the current one. The time complexity is O(n^2), and the space complexity is O(1). The memory consumption is 6.5Mb.
