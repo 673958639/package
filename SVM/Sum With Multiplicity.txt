@@ -1,0 +1,26 @@
+func threeSumMulti(A []int, target int) int {
+   sts:=make([]int,101) 
+   for i:=0;i<len(A);i++{
+       sts[A[i]]++
+   }
+   count:=0
+   if target%3==0&&sts[target/3]>=3{
+       fmt.Println(sts[target/3],sts[target/3]*(sts[target/3]-1)*(sts[target/3]-2)/6)
+       count+=sts[target/3]*(sts[target/3]-1)*(sts[target/3]-2)/6
+   }
+   for i:=0;i<len(sts)&&i<target/2+1;i++{
+       if(target-2*i<=100&&target-2*i>=0&&sts[i]>=2&&sts[target-2*i]!=0&&(target-2*i)!=i){
+           count+=sts[i]*(sts[i]-1)*sts[target-2*i]/2
+       }
+   }
+   for i:=0;i<len(sts)-2&&i<target/3+1;i++{
+       for j:=i+1;j<len(sts)-1&&i<target/2+1;j++{
+           for m:=j+1;m<len(sts)&&m<target;m++{
+               if(i+j+m==target){
+                   count+=sts[i]*sts[j]*sts[m]
+               }
+           }
+       }
+   }
+   return count%1000000007
+}
