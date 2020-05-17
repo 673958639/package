@@ -1,0 +1,1 @@
+We can use an iterative approach to search.The equality is based on the fact that the left nodes of the tree are equal to the left nodes and the right nodes are equal to each other.Iterations use breadth search, or layer search, using queues as the data structure. The time complexity is O(n), and the space complexity is O(n). The memory consumption is 2.1Mb.
