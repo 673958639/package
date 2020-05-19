@@ -1,0 +1,1 @@
+To solve this problem, we just need to evaluate the entire array and compare the sum of the first half of the array with the value of the second half. The time complexity is O(n^2) and the space complexity is O(n). The memory consumption is 5.8Mb.
